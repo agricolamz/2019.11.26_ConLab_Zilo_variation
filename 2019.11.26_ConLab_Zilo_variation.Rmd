@@ -1,0 +1,35 @@
+---
+title: "Catching variation during fieldwork on Nakh-Daghestanian languages"
+author: "George Moroz, Samira Verhees"
+institute: "Linguistic Convergence Laboratory, NRU HSE"
+date: "26 November 2019"
+output: 
+  beamer_presentation:
+    latex_engine: xelatex
+    keep_tex: true
+    includes:
+      in_header: "config/presento.sty"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(tinytex.verbose = TRUE)
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+## Introduction
+
+read about variation and put it here
+
+## Data
+
+Data were collected from
+
+* Zilo speakers (Upper Andic, Northeast Caucasian) during the 2019 fieldwork
+
+![](images/01_map.png)
+
+* and Nakh-Daghestanian researches via online questionary

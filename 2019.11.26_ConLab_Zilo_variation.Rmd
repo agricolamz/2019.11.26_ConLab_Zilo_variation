@@ -112,9 +112,12 @@ if("Sygnatura czasowa" %in% colnames(nd_fes)){
 }
 ```
 
-## Introduction
+## Variationism
 
-read about variation and put it here
+According to [@eckert16] there are three waves of Variationism:
+
+>- [@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74], [@wolfram69]
+
 
 ## Data
 

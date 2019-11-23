@@ -10,8 +10,11 @@ date: |
 output: 
   beamer_presentation:
     latex_engine: xelatex
+    citation_package: natbib
     includes:
       in_header: "config/presento.sty"
+bibliography: bibliography.bib
+biblio-style: "apalike"
 editor_options: 
   chunk_output_type: console
 ---
@@ -121,4 +124,8 @@ Data were collected from
 
 ![](images/01_map.png)
 
+Created with `lingtypology` [@moroz2017]
+
 >- and `r nrow(nd_fes)` Nakh-Daghestanian researches via online questionary
+
+# References {.allowframebreaks}

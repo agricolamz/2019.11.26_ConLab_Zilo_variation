@@ -10,7 +10,6 @@ date: |
 output: 
   beamer_presentation:
     latex_engine: xelatex
-    keep_tex: true
     includes:
       in_header: "config/presento.sty"
 editor_options: 

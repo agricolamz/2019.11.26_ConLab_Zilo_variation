@@ -20,7 +20,7 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 options(tinytex.verbose = TRUE)
 library(tidyverse)
 theme_set(theme_bw())
@@ -190,11 +190,29 @@ Created with `lingtypology` [@moroz2017]
 
 >- and `r nrow(nd_fes)` Nakh-Daghestanian researches via online questionary
 
+## Number of speakers
+
+```{r}
+nd_fes %>% 
+  select(minimum_n_speakers_preference, maximum_n_speakers_preference, minimum_n_speakers_actual, maximum_n_speakers_actual) %>% 
+  pivot_longer(everything(), names_to = "type", values_to = "value") %>% 
+  mutate(range = str_extract(type, "m..imum"),
+         range = factor(range, levels=c("minimum", "maximum")),
+         type = str_extract(type, "(?<=_)[a-z]*$")) %>% 
+  ggplot(aes(value))+
+  geom_dotplot()+
+  facet_grid(type~range)+
+  scale_x_continuous(breaks = 1:20)+
+  labs(x= "", y= "")+
+  scale_y_continuous(NULL, breaks = NULL)
+```
+
+
 ## Bootstraped mean number of speakers (`r n_iter` iterations)
 
 ```{r}
 n_speakers_bootstraped %>% 
-    mutate(range = factor(range, levels=c("minimum", "maximum"))) %>% 
+  mutate(range = factor(range, levels=c("minimum", "maximum"))) %>% 
   ggplot(aes(value, fill = range)) +
   geom_density(alpha = 0.5)+
   facet_wrap(~type, nrow = 2, scales = "free")+

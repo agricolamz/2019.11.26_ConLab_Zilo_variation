@@ -106,11 +106,40 @@ if("Sygnatura czasowa" %in% colnames(nd_fes)){
       main_goal_fieldwork = str_replace_all(main_goal_fieldwork, "исследование грамматической темы \\(в широком смысле\\)", "Research on some theoretical problem (in the broadest possible sense)"),
       main_goal_fieldwork = str_replace(main_goal_fieldwork, "Не готов противопоставлять", "no answer"),
       elicitation = str_replace(elicitation, "Да", "Yes"),
-      corpora = !str_detect(corpora, "No|Нет")) %>% 
-    select(-interest, -place_of_study, -n_people_fieldwork_actual, -goals_fieldwork) %>% 
-    count(n_speakers_preference)
+      corpora = !str_detect(corpora, "No|Нет"),
+      n_speakers_preference = ifelse(str_detect(n_speakers_preference, "As many as possible, in an ideal world"), "4-5", n_speakers_preference),
+      n_speakers_preference = ifelse(str_detect(n_speakers_preference, "It is hard to answer"), "4-5", n_speakers_preference),
+      n_speakers_preference = ifelse(str_detect(n_speakers_preference, "В зависимости от того, какова ожидаемая вариативность"), "2-5", n_speakers_preference),
+      n_speakers_preference = ifelse(str_detect(n_speakers_preference, "Для разных тем разное"), NA, n_speakers_preference),
+      n_speakers_preference = ifelse(str_detect(n_speakers_preference, "по-разному для разных проблем"), NA, n_speakers_preference),
+      n_speakers_preference = ifelse(str_detect(n_speakers_preference, "Depends on the topic"), NA, n_speakers_preference),
+      n_speakers_preference = str_replace(n_speakers_preference, "больше", ">"),
+      n_speakers_preference = str_remove(n_speakers_preference, "> "),
+      minimum_n_speakers_preference = str_remove(n_speakers_preference, "-\\d"),
+      minimum_n_speakers_preference = as.integer(minimum_n_speakers_preference),
+      maximum_n_speakers_preference = str_remove(n_speakers_preference, "\\d-"),
+      maximum_n_speakers_preference = as.integer(maximum_n_speakers_preference),
+      n_speakers_actual = str_replace(n_speakers_actual, "От 2-3 до 6-7", "2-7"),
+      n_speakers_actual = str_replace(n_speakers_actual, "См. ответ на вопрос 15\\.", "2-7"),
+      n_speakers_actual = str_replace(n_speakers_actual, "больше", ">"),
+      n_speakers_actual = ifelse(str_detect(n_speakers_actual, "As many as possible"), 5, n_speakers_actual),
+      n_speakers_actual = ifelse(str_detect(n_speakers_actual, "по-разному в зависимости от темы"), NA, n_speakers_actual),
+      n_speakers_actual = ifelse(str_detect(n_speakers_actual, "I investigate through elicitation"), "4-5", n_speakers_actual),
+      n_speakers_actual = str_remove(n_speakers_actual, "> "),
+      minimum_n_speakers_actual = str_remove(n_speakers_actual, "-\\d"),
+      minimum_n_speakers_actual = as.integer(minimum_n_speakers_actual),
+      maximum_n_speakers_actual = str_remove(n_speakers_actual, "\\d-"),
+      maximum_n_speakers_actual = as.integer(maximum_n_speakers_actual)
+      ) %>% 
+    select(-interest, -place_of_study, -n_people_fieldwork_actual, -goals_fieldwork, -n_speakers_actual, n_speakers_preference) %>% 
+    write_csv("data/nakh-daghestanian_fieldwork_elicitation_survey.csv")
 }
+nd_fes <- read_csv("data/nakh-daghestanian_fieldwork_elicitation_survey.csv")
 ```
+
+## Investigating variation [@dorian10: 3]:
+
+> "Two equally interesting questions are at the heart of this book: how an extraordinary degree of idiosyncratic linguistic variation can coexist with an extraordinarily homogeneous speaker population, and how linguists might overlook the possibility of their coexistence."
 
 ## Variationism
 

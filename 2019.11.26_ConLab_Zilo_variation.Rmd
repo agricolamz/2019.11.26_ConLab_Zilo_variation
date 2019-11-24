@@ -23,8 +23,8 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 options(tinytex.verbose = TRUE)
 library(tidyverse)
-theme_set(theme_bw())
-
+library(extrafont)
+theme_set(theme_bw()+theme(text = element_text(size = 20, family = "Brill")))
 # read zilo data
 zilo_experiment <- read_csv("data/zilo_experiment_questionary.csv")
 

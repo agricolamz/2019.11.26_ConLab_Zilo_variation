@@ -132,9 +132,39 @@ if("Sygnatura czasowa" %in% colnames(nd_fes)){
       maximum_n_speakers_actual = as.integer(maximum_n_speakers_actual)
       ) %>% 
     select(-interest, -place_of_study, -n_people_fieldwork_actual, -goals_fieldwork, -n_speakers_actual, n_speakers_preference) %>% 
-    write_csv("data/nakh-daghestanian_fieldwork_elicitation_survey.csv")
+    write_csv("data/nakh-daghestanian_fieldwork_elicitation_survey.csv", na = "")
 }
 nd_fes <- read_csv("data/nakh-daghestanian_fieldwork_elicitation_survey.csv")
+
+n_iter <- 100000
+if(!file.exists("data/n_speakers_bootstraped.csv")){
+library(bootstrap)
+set.seed(42)
+minimum_n_speakers_preference <- bootstrap(nd_fes$minimum_n_speakers_preference, nboot = n_iter, theta = function(x){mean(x, na.rm = TRUE)})
+maximum_n_speakers_preference <- bootstrap(nd_fes$maximum_n_speakers_preference, nboot = n_iter, theta = function(x){mean(x, na.rm = TRUE)})
+minimum_n_speakers_actual <- bootstrap(nd_fes$minimum_n_speakers_actual, nboot = n_iter, theta = function(x){mean(x, na.rm = TRUE)})
+maximum_n_speakers_actual <- bootstrap(nd_fes$maximum_n_speakers_actual, nboot = n_iter, theta = function(x){mean(x, na.rm = TRUE)})
+
+tibble(id = 1:100000,
+       value = minimum_n_speakers_preference$thetastar,
+       type = "preference",
+       range = "minimum") %>% 
+  bind_rows(tibble(id = 1:100000,
+                   value = maximum_n_speakers_preference$thetastar,
+                   type = "preference",
+                   range = "maximum")) %>%
+  bind_rows(tibble(id = 1:100000,
+                   value = minimum_n_speakers_actual$thetastar,
+                   type = "actual",
+                   range = "minimum")) %>% 
+  bind_rows(tibble(id = 1:100000,
+                   value = maximum_n_speakers_actual$thetastar,
+                   type = "actual",
+                   range = "maximum")) %>% 
+  write_csv("data/n_speakers_bootstraped.csv", na = "")
+}
+
+n_speakers_bootstraped <- read_csv("data/n_speakers_bootstraped.csv")
 ```
 
 ## Investigating variation [@dorian10: 3]:
@@ -152,12 +182,27 @@ According to [@eckert16] there are three waves of Variationism:
 
 Data were collected from
 
->- `r length(unique(zilo_experiment$speaker_id))` Zilo speakers (Upper Andic, Northeast Caucasian) during the fieldwork in 2019
+>- `r length(unique(zilo_experiment$speaker_id))` speakers (Upper Andic, Northeast Caucasian) during the fieldwork in 2019 in Zilo (Botlikh district, Dagestan)
 
 ![](images/01_map.png)
 
 Created with `lingtypology` [@moroz2017]
 
 >- and `r nrow(nd_fes)` Nakh-Daghestanian researches via online questionary
+
+## Bootstraped mean number of speakers (`r n_iter` iterations)
+
+```{r}
+n_speakers_bootstraped %>% 
+    mutate(range = factor(range, levels=c("minimum", "maximum"))) %>% 
+  ggplot(aes(value, fill = range)) +
+  geom_density(alpha = 0.5)+
+  facet_wrap(~type, nrow = 2, scales = "free")+
+  scale_x_continuous(breaks = 1:11)+
+  labs(x = "", y = "")+
+  theme(legend.title = element_blank(),
+        legend.position = c(1, 1),
+        legend.justification = c(1.1, 1.1))
+```
 
 # References {.allowframebreaks}

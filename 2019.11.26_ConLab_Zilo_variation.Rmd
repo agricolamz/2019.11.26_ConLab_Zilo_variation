@@ -116,7 +116,7 @@ if("Sygnatura czasowa" %in% colnames(nd_fes)){
 
 According to [@eckert16] there are three waves of Variationism:
 
->- [@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74], [@wolfram69]
+>- [@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74] on Norwich speech, [@wolfram69] on Detroit Afro-American speech
 
 
 ## Data

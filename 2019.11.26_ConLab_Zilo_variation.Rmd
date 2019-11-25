@@ -9,6 +9,7 @@ date: |
     | ![](images/00_qrcode.png)'
 output: 
   beamer_presentation:
+    df_print: kable
     latex_engine: xelatex
     citation_package: natbib
     includes:
@@ -189,6 +190,58 @@ Data were collected from
 Created with `lingtypology` [@moroz2017]
 
 >- and `r nrow(nd_fes)` Nakh-Daghestanian researches via online questionary
+
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers)
+
+16 questions were asked:
+
+(@butterfly_sg) 'big butterfly'
+(@butterfly_pl) 'big butterflys'
+(@grasshopper_sg) 'big grasshopper'
+(@grasshopper_pl) 'big grasshoppers'
+(@parents) 'parents left'
+(@dative_father) 'pour your father some whater'
+(@dative_cow) 'pour your cow some whater'
+(@third) 'third girl'
+(@verb1) 'On the wedding the bride were beautiful'
+(@plural_heel) 'heels'
+(@plural_soninlow) 'sons-in-law'
+(@verb2) 'they are eating'
+(@verb3) 'when he come, we will eat'
+(@lexic_1) 'rainbow'
+(@lexic_2) 'north'
+(@lexic_3) 'thousand'
+
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): class atribution
+
+```{r}
+read_csv("data/classes_in_andi.csv")
+```
+
+* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) and *ʁats'a* 'grasshopper' (@grasshopper_sg, @grasshopper_pl) belong to `-an3` class in Rikwani [@suleymanov57]
+* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) is one of the most variable words from [@moroz19]
+
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): dative
+
+(@dative_father, @dative_cow)
+
+
+
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): agreement
+
+(@parents)
+
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): plural forms
+
+We obserced some variability in plural forms formation, but stimuli selected for this topic (@plural_heel, @plural_soninlow) were not variable at all...
+
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): verb
+
+Samira, say something about (@verb1, @verb2, @verb3), please
+
+
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): lexics
+Examples 'rainbow', 'north', 'thousand' (@lexic_1, @lexic_2, and @lexic_3) were selected since there were known problems in borrowings (@lexic_1, @lexic_2) and borrowing adaptation (@lexic_3): *ozruɡu*, *oziruɡu*, *ozuruɡu*.
 
 ## Number of speakers
 

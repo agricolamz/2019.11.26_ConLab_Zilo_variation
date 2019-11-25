@@ -163,3 +163,15 @@
     citecolor=colorblue,
     urlcolor=colorblue
 }
+
+\AtBeginSection[]{
+\setbeamercolor{background canvas}{bg=colorblue}
+\begin{frame}[plain]
+  \begin{center}
+  \centering
+    \usebeamerfont{section title}\huge\insertsection
+  \end{center}
+\end{frame}
+\addtocounter{framenumber}{-1}
+\setbeamercolor{background canvas}{bg=colorwhite}
+}

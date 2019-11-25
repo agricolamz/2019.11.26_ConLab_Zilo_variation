@@ -3,7 +3,7 @@ title: "Catching variation during fieldwork on Nakh-Daghestanian languages"
 author: "George Moroz, Samira Verhees"
 institute: "Linguistic Convergence Laboratory, NRU HSE"
 date: |
-    | 26 November 2019
+    | 26 November 2019, Happy Birthday Ferdinand de Saussure!
     |
     |
     | ![](images/00_qrcode.png)'
@@ -21,7 +21,7 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dev='cairo_pdf')
 options(tinytex.verbose = TRUE)
 library(tidyverse)
 library(extrafont)
@@ -168,6 +168,8 @@ tibble(id = 1:100000,
 n_speakers_bootstraped <- read_csv("data/n_speakers_bootstraped.csv")
 ```
 
+# \color{colorwhite} Introduction
+
 ## Investigating variation [@dorian10: 3]:
 
 > "Two equally interesting questions are at the heart of this book: how an extraordinary degree of idiosyncratic linguistic variation can coexist with an extraordinarily homogeneous speaker population, and how linguists might overlook the possibility of their coexistence."
@@ -178,6 +180,7 @@ According to [@eckert16] there are three waves of Variationism:
 
 >- [@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74] on Norwich speech, [@wolfram69] on Detroit Afro-American speech
 
+# \color{colorwhite} Data
 
 ## Data
 
@@ -191,9 +194,9 @@ Created with `lingtypology` [@moroz2017]
 
 >- and `r nrow(nd_fes)` Nakh-Daghestanian researches via online questionary
 
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers)
+# \color{colorwhite} Zilo Data
 
-16 questions were asked:
+## `r length(unique(zilo_experiment$speaker_id))` Zilo speakers were asked to translate:
 
 (@butterfly_sg) 'big butterfly'
 (@butterfly_pl) 'big butterflys'
@@ -202,8 +205,8 @@ Created with `lingtypology` [@moroz2017]
 (@parents) 'parents left'
 (@dative_father) 'pour your father some whater'
 (@dative_cow) 'pour your cow some whater'
-(@third) 'third girl'
-(@verb1) 'On the wedding the bride were beautiful'
+(@cardinal) 'third girl'
+(@verb1) 'On the wedding the bride was beautiful'
 (@plural_heel) 'heels'
 (@plural_soninlow) 'sons-in-law'
 (@verb2) 'they are eating'
@@ -219,29 +222,58 @@ read_csv("data/classes_in_andi.csv")
 ```
 
 * *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) and *ʁats'a* 'grasshopper' (@grasshopper_sg, @grasshopper_pl) belong to `-an3` class in Rikwani [@suleymanov57]
-* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) is one of the most variable words from [@moroz19]
+* *odoruk’a* 'butterfly' (@butterfly_sg) is one of the most variable words from [@moroz19]
 
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): dative
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): other questions
 
-(@dative_father, @dative_cow)
+>- We noticed that *ila-ima* 'parents' can agree with `-an 2` (@parents).
+>- We observed different dative morpheme with masculine experiencer -*j*/-*ɬu* (@dative_father, @dative_cow)
+>- It have been claimed that there is variability in cardinal numeral marker (@cardinal) that unfortunately did not appeared in the data...
+>- We noticed a variability in plural forms formation, but stimuli selected for this topic (@plural_heel, @plural_soninlow) unfortunately did not vary at all...
+>- Samira, say something about (@verb1, @verb3), please
+>- An optional plural suffix -*l* can be added to progressive verb forms in -*rado*/-*mado* (@verb2)
+>- Examples 'rainbow', 'north', 'thousand' (@lexic_1, @lexic_2, and @lexic_3) were selected since there were known problems in borrowings (@lexic_1, @lexic_2) and borrowing adaptation (@lexic_3): *ozruɡu*, *oziruɡu*, *ozuruɡu*.
 
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): results
 
+```{r}
+zilo_experiment %>% 
+  count(translation_en, value, f_id) %>% 
+  group_by(translation_en) %>% 
+  mutate(ratio = n/sum(n),
+         type = factor(1:length(n)),
+         length = length(type)) %>%  
+  ungroup() %>% 
+  mutate(translation_en = fct_reorder(str_trunc(paste(f_id, translation_en), 20), f_id)) %>% 
+  ggplot(aes(translation_en, ratio, fill = type))+
+  geom_col(position = "stack", show.legend = FALSE)+
+  geom_text(aes(label = paste0(value, " ", round(ratio*100), "%")),  position = position_stack(vjust = 0.5), color = "white", family = "Brill")+
+  coord_flip()+
+  labs(x = "")+
+  scale_fill_hue(l=50)
+```
 
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): agreement
+# \color{colorwhite} Nakh-Daghestanian Fieldwork Survey
 
-(@parents)
+## `r nrow(nd_fes)` ND researches were asked to answer about:
 
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): plural forms
-
-We obserced some variability in plural forms formation, but stimuli selected for this topic (@plural_heel, @plural_soninlow) were not variable at all...
-
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): verb
-
-Samira, say something about (@verb1, @verb2, @verb3), please
-
-
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): lexics
-Examples 'rainbow', 'north', 'thousand' (@lexic_1, @lexic_2, and @lexic_3) were selected since there were known problems in borrowings (@lexic_1, @lexic_2) and borrowing adaptation (@lexic_3): *ozruɡu*, *oziruɡu*, *ozuruɡu*.
+* level of education
+* linguistic interest
+* study linguistics at university
+* fieldwork participation when student
+* year of finishing study
+* place of study and work
+* number of people in fieldtrips participated
+* number of people in fieldtrips preder to participate
+* fildwork goal and the main goal
+* elicitation and corpora use
+* **number of speakers that researcher should consult with**
+* **number of speakers that researcher usually consult with**
+* how researcher need to cope with interspeaker variability
+* how researcher need to cope with intraspeaker variability
+* whether speakers under the age of 13 are reliable consultants
+* whether speakers older than 70 are reliable consultants
+* personal (dis)preferences about the choice of consultants
 
 ## Number of speakers
 
@@ -275,5 +307,7 @@ n_speakers_bootstraped %>%
         legend.position = c(1, 1),
         legend.justification = c(1.1, 1.1))
 ```
+
+# \color{colorwhite} What if "the average researcher" ... come to Zilo?
 
 # References {.allowframebreaks}

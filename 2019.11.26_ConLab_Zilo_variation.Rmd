@@ -294,6 +294,32 @@ zilo_experiment %>%
   scale_fill_hue(l=50)
 ```
 
+## More about 'butterfly':
+
+* previosly we claimed:
+
+```{r}
+read_csv("data/classes_in_andi.csv") %>% 
+  filter(str_detect(lect, "Ri|Zi")) %>% 
+  select(-`-h`)
+```
+
+* in [@moroz19] we asked only singular form
+
+* in our new experiment:
+
+```{r}
+zilo_experiment %>% 
+  filter(f_id < 3) %>% 
+  select(f_id, value, speaker_id) %>% 
+  pivot_wider(everything(), names_from = f_id, values_from = value) %>% 
+  count(`1`, `2`) %>% 
+  rename(sg = `1`,
+         pl = `2`) %>% 
+  mutate(class = c("an", "⸄o⸅", "-an 2"))
+```
+
+
 # \color{colorwhite} Nakh-Daghestanian Fieldwork Survey
 
 ## `r nrow(nd_fes)` ND researches were asked to answer about:

@@ -2,7 +2,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,1,f,32,Тахучол
 3,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,1,f,32,Тахучол
 5,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,1,f,32,Тахучол
-7,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,1,f,32,Тахучол
+7,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,1,f,32,Тахучол
 10,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,1,f,32,Тахучол
 11,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,1,f,32,Тахучол
 13,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,1,f,32,Тахучол
@@ -18,7 +18,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 39,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,2,f,68,Сагитилал
 41,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,2,f,68,Сагитилал
 43,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,2,f,68,Сагитилал
-45,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,2,f,68,Сагитилал
+45,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,2,f,68,Сагитилал
 48,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,2,f,68,Сагитилал
 49,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,2,f,68,Сагитилал
 51,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,2,f,68,Сагитилал
@@ -34,7 +34,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 77,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,3,f,58,"Айчол, Нухилал (ж)"
 79,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,3,f,58,"Айчол, Нухилал (ж)"
 81,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,3,f,58,"Айчол, Нухилал (ж)"
-83,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,3,f,58,"Айчол, Нухилал (ж)"
+83,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,3,f,58,"Айчол, Нухилал (ж)"
 85,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,3,f,58,"Айчол, Нухилал (ж)"
 87,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,3,f,58,"Айчол, Нухилал (ж)"
 89,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,3,f,58,"Айчол, Нухилал (ж)"
@@ -50,7 +50,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 116,grammar,1,big butterfly,большая бабочка,r-etʃ’uχa,Реч1уха одорук1а,4,m,42,NA
 117,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,4,m,42,NA
 119,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,4,m,42,NA
-121,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,4,m,42,NA
+121,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,4,m,42,NA
 123,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,4,m,42,NA
 125,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,4,m,42,NA
 127,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,4,m,42,NA
@@ -66,7 +66,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 154,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,5,f,68,Гъапурилалуб
 156,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,5,f,68,Гъапурилалуб
 158,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,5,f,68,Гъапурилалуб
-160,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,5,f,68,Гъапурилалуб
+160,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,5,f,68,Гъапурилалуб
 162,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,5,f,68,Гъапурилалуб
 164,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,5,f,68,Гъапурилалуб
 166,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,5,f,68,Гъапурилалуб
@@ -82,7 +82,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 195,grammar,1,big butterfly,большая бабочка,r-etʃ’uχa,Реч1уха одорук1а,6,m,59,"Балталал, Хасик1олал"
 196,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,6,m,59,"Балталал, Хасик1олал"
 198,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,6,m,59,"Балталал, Хасик1олал"
-200,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,6,m,59,"Балталал, Хасик1олал"
+200,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,6,m,59,"Балталал, Хасик1олал"
 202,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,6,m,59,"Балталал, Хасик1олал"
 205,grammar,6,pour your father some whater,налей отцу воды,dada-j,т1инно дадаЙ лъен,6,m,59,"Балталал, Хасик1олал"
 206,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,6,m,59,"Балталал, Хасик1олал"
@@ -98,7 +98,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 234,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,7,f,53,Х1анапилалуб тухум
 236,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,7,f,53,Х1анапилалуб тухум
 238,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,7,f,53,Х1анапилалуб тухум
-240,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,7,f,53,Х1анапилалуб тухум
+240,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,7,f,53,Х1анапилалуб тухум
 242,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,7,f,53,Х1анапилалуб тухум
 244,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,7,f,53,Х1анапилалуб тухум
 246,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,7,f,53,Х1анапилалуб тухум
@@ -114,7 +114,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 274,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,8,m,65,"Куналал, Суйгемадаб тухум"
 276,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,8,m,65,"Куналал, Суйгемадаб тухум"
 278,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,8,m,65,"Куналал, Суйгемадаб тухум"
-280,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,8,m,65,"Куналал, Суйгемадаб тухум"
+280,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,8,m,65,"Куналал, Суйгемадаб тухум"
 282,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,8,m,65,"Куналал, Суйгемадаб тухум"
 284,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,8,m,65,"Куналал, Суйгемадаб тухум"
 286,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,8,m,65,"Куналал, Суйгемадаб тухум"
@@ -130,7 +130,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 314,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,9,m,73,"Гьекьилавлал, Къабакол"
 316,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,9,m,73,"Гьекьилавлал, Къабакол"
 318,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,9,m,73,"Гьекьилавлал, Къабакол"
-320,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,9,m,73,"Гьекьилавлал, Къабакол"
+320,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,9,m,73,"Гьекьилавлал, Къабакол"
 322,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,9,m,73,"Гьекьилавлал, Къабакол"
 325,grammar,6,pour your father some whater,налей отцу воды,dada-j,т1инно дадаЙ лъен,9,m,73,"Гьекьилавлал, Къабакол"
 326,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,9,m,73,"Гьекьилавлал, Къабакол"
@@ -146,7 +146,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 354,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,10,f,36,Тирмач
 356,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,10,f,36,Тирмач
 358,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,10,f,36,Тирмач
-360,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,10,f,36,Тирмач
+360,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,10,f,36,Тирмач
 362,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,10,f,36,Тирмач
 364,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,10,f,36,Тирмач
 366,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,10,f,36,Тирмач
@@ -162,7 +162,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 395,grammar,1,big butterfly,большая бабочка,r-etʃ’uχa,Реч1уха одорук1а,11,m,30,"Гьаджилал, Ордашилал"
 397,grammar,2,big butterflys,большие бабочки,r-etʃ’uχol,Реч1ухол одорук1ол,11,m,30,"Гьаджилал, Ордашилал"
 398,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,11,m,30,"Гьаджилал, Ордашилал"
-400,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,11,m,30,"Гьаджилал, Ордашилал"
+400,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,11,m,30,"Гьаджилал, Ордашилал"
 403,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,11,m,30,"Гьаджилал, Ордашилал"
 404,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,11,m,30,"Гьаджилал, Ордашилал"
 406,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,11,m,30,"Гьаджилал, Ордашилал"
@@ -178,7 +178,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 434,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,12,m,33,Сут1а
 436,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,12,m,33,Сут1а
 438,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,12,m,33,Сут1а
-440,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,12,m,33,Сут1а
+440,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,12,m,33,Сут1а
 442,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,12,m,33,Сут1а
 444,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,12,m,33,Сут1а
 446,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,12,m,33,Сут1а
@@ -194,7 +194,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 475,grammar,1,big butterfly,большая бабочка,r-etʃ’uχa,Реч1уха одорук1а,13,f,50,Гъойтилал
 476,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,13,f,50,Гъойтилал
 478,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,13,f,50,Гъойтилал
-480,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,13,f,50,Гъойтилал
+480,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,13,f,50,Гъойтилал
 482,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,13,f,50,Гъойтилал
 484,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,13,f,50,Гъойтилал
 486,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,13,f,50,Гъойтилал
@@ -210,7 +210,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 514,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,14,f,24,Мазалал
 516,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,14,f,24,Мазалал
 518,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,14,f,24,Мазалал
-520,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,14,f,24,Мазалал
+520,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,14,f,24,Мазалал
 522,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,14,f,24,Мазалал
 524,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,14,f,24,Мазалал
 526,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,14,f,24,Мазалал
@@ -226,7 +226,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 554,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,15,f,57,Хасик1олал
 556,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,15,f,57,Хасик1олал
 558,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,15,f,57,Хасик1олал
-560,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,15,f,57,Хасик1олал
+560,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,15,f,57,Хасик1олал
 563,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,15,f,57,Хасик1олал
 564,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,15,f,57,Хасик1олал
 566,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,15,f,57,Хасик1олал
@@ -242,7 +242,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 594,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,16,f,16,Ордащилал
 596,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,16,f,16,Ордащилал
 598,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,16,f,16,Ордащилал
-600,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,16,f,16,Ордащилал
+600,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,16,f,16,Ордащилал
 602,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,16,f,16,Ордащилал
 604,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,16,f,16,Ордащилал
 606,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,16,f,16,Ордащилал
@@ -258,7 +258,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 634,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,17,f,56,Ордащилал
 636,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,17,f,56,Ордащилал
 638,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,17,f,56,Ордащилал
-640,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,17,f,56,Ордащилал
+640,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,17,f,56,Ордащилал
 642,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,17,f,56,Ордащилал
 644,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,17,f,56,Ордащилал
 646,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,17,f,56,Ордащилал
@@ -274,7 +274,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 675,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,18,f,25,Гъазбегол
 677,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,18,f,25,Гъазбегол
 679,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,18,f,25,Гъазбегол
-681,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,18,f,25,Гъазбегол
+681,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,18,f,25,Гъазбегол
 684,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,18,f,25,Гъазбегол
 687,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,18,f,25,Гъазбегол
 690,grammar,8,third girl,третья девочка,ɬobdeb,лъобдЕБ йоши,18,f,25,Гъазбегол
@@ -289,7 +289,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 715,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,19,m,73,Мизулал
 717,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,19,m,73,Мизулал
 719,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,19,m,73,Мизулал
-721,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,19,m,73,Мизулал
+721,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,19,m,73,Мизулал
 724,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,19,m,73,Мизулал
 726,grammar,6,pour your father some whater,налей отцу воды,dada-j,т1инно дадаЙ лъен,19,m,73,Мизулал
 727,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,19,m,73,Мизулал
@@ -305,7 +305,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 756,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,20,f,43,"Сарайлал, Юсупилал"
 758,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,20,f,43,"Сарайлал, Юсупилал"
 760,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,20,f,43,"Сарайлал, Юсупилал"
-762,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,20,f,43,"Сарайлал, Юсупилал"
+762,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,20,f,43,"Сарайлал, Юсупилал"
 764,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,20,f,43,"Сарайлал, Юсупилал"
 766,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,20,f,43,"Сарайлал, Юсупилал"
 768,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,20,f,43,"Сарайлал, Юсупилал"
@@ -321,7 +321,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 797,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,21,f,58,Сиралал
 799,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,21,f,58,Сиралал
 801,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,21,f,58,Сиралал
-803,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,21,f,58,Сиралал
+803,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,21,f,58,Сиралал
 805,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,21,f,58,Сиралал
 807,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,21,f,58,Сиралал
 809,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,21,f,58,Сиралал
@@ -337,7 +337,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 838,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,22,m,64,Эсолал
 840,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,22,m,64,Эсолал
 842,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,22,m,64,Эсолал
-844,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,22,m,64,Эсолал
+844,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,22,m,64,Эсолал
 846,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,22,m,64,Эсолал
 848,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,22,m,64,Эсолал
 850,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,22,m,64,Эсолал
@@ -353,7 +353,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 880,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,23,m,39,Сарикаевский
 882,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,23,m,39,Сарикаевский
 884,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,23,m,39,Сарикаевский
-886,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,23,m,39,Сарикаевский
+886,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,23,m,39,Сарикаевский
 888,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,23,m,39,Сарикаевский
 891,grammar,6,pour your father some whater,налей отцу воды,dada-j,т1инно дадаЙ лъен,23,m,39,Сарикаевский
 893,grammar,7,pour your cow some whater,налей корове воды,zĩw-uj,т1инно зивуЙ лъен,23,m,39,Сарикаевский
@@ -369,7 +369,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 921,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,24,f,53,Нух1илал
 923,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,24,f,53,Нух1илал
 925,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,24,f,53,Нух1илал
-927,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,24,f,53,Нух1илал
+927,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,24,f,53,Нух1илал
 930,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,24,f,53,Нух1илал
 931,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,24,f,53,Нух1илал
 933,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,24,f,53,Нух1илал
@@ -385,7 +385,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 962,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,25,m,60,"Хъазилал, Агьлуухъелал"
 964,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,25,m,60,"Хъазилал, Агьлуухъелал"
 966,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,25,m,60,"Хъазилал, Агьлуухъелал"
-968,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,25,m,60,"Хъазилал, Агьлуухъелал"
+968,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,25,m,60,"Хъазилал, Агьлуухъелал"
 971,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,25,m,60,"Хъазилал, Агьлуухъелал"
 972,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,25,m,60,"Хъазилал, Агьлуухъелал"
 974,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,25,m,60,"Хъазилал, Агьлуухъелал"
@@ -401,7 +401,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1003,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,26,m,38,Хъазилал
 1005,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,26,m,38,Хъазилал
 1007,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,26,m,38,Хъазилал
-1009,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,26,m,38,Хъазилал
+1009,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,26,m,38,Хъазилал
 1011,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,26,m,38,Хъазилал
 1013,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,26,m,38,Хъазилал
 1015,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,26,m,38,Хъазилал
@@ -409,7 +409,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1020,grammar,9,on the wedding the bride was beautiful,на свадьбе невеста была красивая,ji-ʁi,реххиноъа бах1арай багъу йиГЪи,26,m,38,Хъазилал
 1023,grammar,10,heels,пятка pl,miʒa-lol,мижаЛОЛ,26,m,38,Хъазилал
 1026,grammar,11,sons-in-law,зять pl,nuso-bdul,нусоБДУЛ,26,m,38,Хъазилал
-1028,grammar,12,they are eating,они кушают,wokoma-do,гьегевул вокомаЛО,26,m,38,Хъазилал
+1028,grammar,12,they are eating,они кушают,wokoma-lo,гьегевул вокомаЛО,26,m,38,Хъазилал
 1029,grammar,13,"when he come, we will eat","когда он придет, будем кушать",wuʔo-rbi,вуъоРБИ,26,m,38,Хъазилал
 1034,lexical,14,rainbow,радуга,hortʃ'ːi,сороди гьорч1ч1и йичонний,26,m,38,Хъазилал
 1038,lexical,15,north,север,sewer,север,26,m,38,Хъазилал
@@ -417,7 +417,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1044,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,27,f,67,Ислам
 1046,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,27,f,67,Ислам
 1048,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,27,f,67,Ислам
-1050,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,27,f,67,Ислам
+1050,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,27,f,67,Ислам
 1052,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,27,f,67,Ислам
 1054,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,27,f,67,Ислам
 1056,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,27,f,67,Ислам
@@ -433,7 +433,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1085,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,28,m,58,Ордащилал
 1087,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,28,m,58,Ордащилал
 1089,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,28,m,58,Ордащилал
-1091,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,28,m,58,Ордащилал
+1091,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,28,m,58,Ордащилал
 1093,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,28,m,58,Ордащилал
 1095,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,28,m,58,Ордащилал
 1097,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,28,m,58,Ордащилал
@@ -449,7 +449,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1126,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,29,m,61,Балталал
 1128,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,29,m,61,Балталал
 1130,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,29,m,61,Балталал
-1132,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,29,m,61,Балталал
+1132,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,29,m,61,Балталал
 1134,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,29,m,61,Балталал
 1136,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,29,m,61,Балталал
 1138,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,29,m,61,Балталал
@@ -465,7 +465,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1167,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,30,f,48,NA
 1169,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,30,f,48,NA
 1171,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,30,f,48,NA
-1173,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,30,f,48,NA
+1173,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,30,f,48,NA
 1175,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,30,f,48,NA
 1177,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,30,f,48,NA
 1179,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,30,f,48,NA
@@ -481,7 +481,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1208,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,31,m,67,Нух1илал
 1210,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,31,m,67,Нух1илал
 1212,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,31,m,67,Нух1илал
-1214,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,31,m,67,Нух1илал
+1214,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,31,m,67,Нух1илал
 1216,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,31,m,67,Нух1илал
 1218,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,31,m,67,Нух1илал
 1220,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,31,m,67,Нух1илал
@@ -497,7 +497,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1249,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,32,m,29,Амирадул
 1251,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,32,m,29,Амирадул
 1253,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,32,m,29,Амирадул
-1255,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,32,m,29,Амирадул
+1255,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,32,m,29,Амирадул
 1257,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,32,m,29,Амирадул
 1260,grammar,6,pour your father some whater,налей отцу воды,dada-j,т1инно дадаЙ лъен,32,m,29,Амирадул
 1261,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,32,m,29,Амирадул
@@ -513,7 +513,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1290,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,33,m,67,Хъазилал
 1292,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,33,m,67,Хъазилал
 1294,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,33,m,67,Хъазилал
-1296,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,33,m,67,Хъазилал
+1296,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,33,m,67,Хъазилал
 1298,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,33,m,67,Хъазилал
 1300,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,33,m,67,Хъазилал
 1302,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,33,m,67,Хъазилал
@@ -529,9 +529,9 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1331,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,34,f,67,Суйгемадул
 1333,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,34,f,67,Суйгемадул
 1335,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,34,f,67,Суйгемадул
-1337,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,34,f,67,Суйгемадул
+1337,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,34,f,67,Суйгемадул
 1340,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,34,f,67,Суйгемадул
-1341,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЪО лъен,34,f,67,Суйгемадул
+1341,grammar,6,pour your father some whater,налей отцу воды,dada-ʔo,т1инно дадаЪО лъен,34,f,67,Суйгемадул
 1344,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,34,f,67,Суйгемадул
 1347,grammar,8,third girl,третья девочка,ɬobdeb,лъобдЕБ йоши,34,f,67,Суйгемадул
 1349,grammar,9,on the wedding the bride was beautiful,на свадьбе невеста была красивая,ji-ʁi,реххиноъа бах1арай багъу йиГЪи,34,f,67,Суйгемадул
@@ -545,7 +545,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1373,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,35,f,49,"Сарайлал, Хъазилал"
 1375,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,35,f,49,"Сарайлал, Хъазилал"
 1377,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,35,f,49,"Сарайлал, Хъазилал"
-1379,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,35,f,49,"Сарайлал, Хъазилал"
+1379,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,35,f,49,"Сарайлал, Хъазилал"
 1381,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,35,f,49,"Сарайлал, Хъазилал"
 1383,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,35,f,49,"Сарайлал, Хъазилал"
 1385,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,35,f,49,"Сарайлал, Хъазилал"
@@ -561,7 +561,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1415,grammar,1,big butterfly,большая бабочка,r-etʃ’uχa,Реч1уха одорук1а,36,m,37,NA
 1417,grammar,2,big butterflys,большие бабочки,r-etʃ’uχol,Реч1ухол одорук1ол,36,m,37,NA
 1418,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,36,m,37,NA
-1420,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,36,m,37,NA
+1420,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,36,m,37,NA
 1422,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,36,m,37,NA
 1425,grammar,6,pour your father some whater,налей отцу воды,dada-j,т1инно дадаЙ лъен,36,m,37,NA
 1426,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,36,m,37,NA
@@ -577,7 +577,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1455,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,37,m,54,"Тирмач, Хъазилал"
 1457,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,37,m,54,"Тирмач, Хъазилал"
 1459,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,37,m,54,"Тирмач, Хъазилал"
-1461,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,37,m,54,"Тирмач, Хъазилал"
+1461,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,37,m,54,"Тирмач, Хъазилал"
 1463,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,37,m,54,"Тирмач, Хъазилал"
 1465,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,37,m,54,"Тирмач, Хъазилал"
 1467,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,37,m,54,"Тирмач, Хъазилал"
@@ -593,7 +593,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1496,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,38,f,35,Угьамадул
 1498,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,38,f,35,Угьамадул
 1500,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,38,f,35,Угьамадул
-1502,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,38,f,35,Угьамадул
+1502,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,38,f,35,Угьамадул
 1504,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,38,f,35,Угьамадул
 1506,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,38,f,35,Угьамадул
 1508,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,38,f,35,Угьамадул
@@ -609,7 +609,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1537,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,39,m,36,NA
 1539,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,39,m,36,NA
 1541,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,39,m,36,NA
-1543,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,39,m,36,NA
+1543,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,39,m,36,NA
 1545,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,39,m,36,NA
 1547,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,39,m,36,NA
 1549,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,39,m,36,NA
@@ -625,7 +625,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1578,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,40,m,61,"Угьамадул, Балталал"
 1580,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,40,m,61,"Угьамадул, Балталал"
 1582,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,40,m,61,"Угьамадул, Балталал"
-1584,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,40,m,61,"Угьамадул, Балталал"
+1584,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,40,m,61,"Угьамадул, Балталал"
 1586,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,40,m,61,"Угьамадул, Балталал"
 1589,grammar,6,pour your father some whater,налей отцу воды,dada-j,т1инно дадаЙ лъен,40,m,61,"Угьамадул, Балталал"
 1590,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,40,m,61,"Угьамадул, Балталал"
@@ -636,12 +636,12 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1602,grammar,12,they are eating,они кушают,wokoma-do,гьегевул вокомаДО,40,m,61,"Угьамадул, Балталал"
 1604,grammar,13,"when he come, we will eat","когда он придет, будем кушать",wuʔo-rbi,вуъоРБИ,40,m,61,"Угьамадул, Балталал"
 1609,lexical,14,rainbow,радуга,hortʃ'ːi,сороди гьорч1ч1и йичонний,40,m,61,"Угьамадул, Балталал"
-1612,lexical,15,north,север,sewer,сибир,40,m,61,"Угьамадул, Балталал"
+1612,lexical,15,north,север,sibir,сибир,40,m,61,"Угьамадул, Балталал"
 1616,lexical,16,thousand,тысяча,ozruɡu,озругу,40,m,61,"Угьамадул, Балталал"
 1619,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,41,m,70,Балталал
 1621,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,41,m,70,Балталал
 1623,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,41,m,70,Балталал
-1625,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,41,m,70,Балталал
+1625,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,41,m,70,Балталал
 1628,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,41,m,70,Балталал
 1629,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,41,m,70,Балталал
 1631,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,41,m,70,Балталал
@@ -652,12 +652,12 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1643,grammar,12,they are eating,они кушают,wokoma-do,гьегевул вокомаДО,41,m,70,Балталал
 1646,grammar,13,"when he come, we will eat","когда он придет, будем кушать",wuʔo-rbildi,вуъоРБИЛДИ,41,m,70,Балталал
 1650,lexical,14,rainbow,радуга,hortʃ'ːi,сороди гьорч1ч1и йичонний,41,m,70,Балталал
-1654,lexical,15,north,север,sibir,север,41,m,70,Балталал
+1654,lexical,15,north,север,sewer,север,41,m,70,Балталал
 1658,lexical,16,thousand,тысяча,ozuruɡu,озУругу,41,m,70,Балталал
 1661,grammar,1,big butterfly,большая бабочка,r-etʃ’uχa,Реч1уха одорук1а,42,m,56,"Гъазилал, Ордащилал"
 1662,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,42,m,56,"Гъазилал, Ордащилал"
 1664,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,42,m,56,"Гъазилал, Ордащилал"
-1666,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,42,m,56,"Гъазилал, Ордащилал"
+1666,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,42,m,56,"Гъазилал, Ордащилал"
 1668,grammar,5,parents left,родители ушли,ru-ʔon,ила има РУъон,42,m,56,"Гъазилал, Ордащилал"
 1671,grammar,6,pour your father some whater,налей отцу воды,dada-j,т1инно дадаЙ лъен,42,m,56,"Гъазилал, Ордащилал"
 1672,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,42,m,56,"Гъазилал, Ордащилал"
@@ -673,7 +673,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1701,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,43,f,62,Гьекьилавлал
 1703,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,43,f,62,Гьекьилавлал
 1705,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,43,f,62,Гьекьилавлал
-1707,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,43,f,62,Гьекьилавлал
+1707,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,43,f,62,Гьекьилавлал
 1710,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,43,f,62,Гьекьилавлал
 1711,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,43,f,62,Гьекьилавлал
 1713,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,43,f,62,Гьекьилавлал
@@ -689,7 +689,7 @@ id,f_type,f_id,translation_en,translation_ru,value,answer,speaker_id,sex,age,tuk
 1742,grammar,1,big butterfly,большая бабочка,b-etʃ’uχa,Беч1уха одорук1а,44,f,59,Гьекьилавлал
 1744,grammar,2,big butterflys,большие бабочки,j-etʃ’uχol,Йеч1ухол одорук1ол,44,f,59,Гьекьилавлал
 1746,grammar,3,big grasshopper,большой кузнечик,b-etʃ’uχa,Беч1уха гъац1а,44,f,59,Гьекьилавлал
-1748,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχa,Йеч1ухол гъац1ол,44,f,59,Гьекьилавлал
+1748,grammar,4,big grasshoppers,большие кузнечики,j-etʃ’uχol,Йеч1ухол гъац1ол,44,f,59,Гьекьилавлал
 1751,grammar,5,parents left,родители ушли,wo-ʔon,ила има ВОъон,44,f,59,Гьекьилавлал
 1752,grammar,6,pour your father some whater,налей отцу воды,dada-ɬu,т1инно дадаЛЪУ лъен,44,f,59,Гьекьилавлал
 1754,grammar,7,pour your cow some whater,налей корове воды,zĩw-ɬu,т1инно зив(у)ЛЪУ лъен,44,f,59,Гьекьилавлал

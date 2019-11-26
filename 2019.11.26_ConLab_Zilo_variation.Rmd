@@ -164,8 +164,49 @@ tibble(id = 1:100000,
                    range = "maximum")) %>% 
   write_csv("data/n_speakers_bootstraped.csv", na = "")
 }
-
 n_speakers_bootstraped <- read_csv("data/n_speakers_bootstraped.csv")
+
+if(!file.exists("data/experiment_sampling.csv")){
+zilo_experiment %>% 
+  group_by(f_id, translation_en) %>% 
+  distinct(answer) %>% 
+  count(f_id, translation_en) ->
+  experiment_types
+
+set.seed(42)
+n_speakers_bootstraped %>% 
+  group_by(type, range) %>% 
+  select(value) %>% 
+  sample_n(100000, replace = TRUE) %>% 
+  ungroup() %>% 
+  rowwise() %>% 
+  mutate(value_r = round(value),
+         n_types_q1 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 1,]$value, value_r))),
+         n_types_q2 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 2,]$value, value_r))),
+         n_types_q3 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 3,]$value, value_r))),
+         n_types_q4 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 4,]$value, value_r))),
+         n_types_q5 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 5,]$value, value_r))),
+         n_types_q6 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 6,]$value, value_r))),
+         n_types_q7 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 7,]$value, value_r))),
+         n_types_q8 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 8,]$value, value_r))),
+         n_types_q9 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 9,]$value, value_r))),
+         n_types_q10 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 10,]$value, value_r))),
+         n_types_q11 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 11,]$value, value_r))),
+         n_types_q12 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 12,]$value, value_r))),
+         n_types_q13 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 13,]$value, value_r))),
+         n_types_q14 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 14,]$value, value_r))),
+         n_types_q15 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 15,]$value, value_r))),
+         n_types_q16 = length(unique(sample(zilo_experiment[zilo_experiment$f_id == 16,]$value, value_r)))) %>% 
+  pivot_longer(names_to = "q_id", values_to = "n_types", n_types_q1:n_types_q16)  %>% 
+  mutate(f_id = as.integer(str_extract(q_id, "\\d{1,}"))) %>% 
+  left_join(experiment_types) %>% 
+  mutate(type_range = paste(type, range)) %>% 
+  count(type_range, f_id, translation_en, n_types) %>% 
+  group_by(type_range, f_id, translation_en) %>% 
+  mutate(percentage = n/sum(n)*100) %>% 
+  write_csv("data/experiment_sampling.csv", na = "")
+}
+experiment_sampling <- read_csv("data/experiment_sampling.csv")
 ```
 
 # \color{colorwhite} Introduction
@@ -308,6 +349,25 @@ n_speakers_bootstraped %>%
         legend.justification = c(1.1, 1.1))
 ```
 
-# \color{colorwhite} What if "the average researcher" ... come to Zilo?
+# \color{colorwhite} What if `r n_iter` "average researchers" ... come to Zilo?
+
+
+## `r n_iter` samples from experiment results with bootstraped number of consultants
+
+```{r}
+experiment_sampling %>% 
+  mutate(n_types = factor(n_types),
+         type_range = factor(type_range, levels = c("actual minimum", "actual maximum", "preference minimum", "preference maximum")),
+         translation_en = fct_reorder(str_trunc(paste(f_id, translation_en), 20), f_id)) %>% 
+  ggplot(aes(n_types, percentage, label = paste0(round(percentage), "%")))+
+  geom_col()+
+  geom_text(nudge_y = 15)+
+  facet_grid(translation_en~type_range, scales = "free")+
+  coord_flip()+
+  theme(strip.text.y = element_text(angle=0))+
+  labs(x = 'number of classes gathered by "researchers"',
+       y = 'percantage of "researchers"')+
+  ylim(0, 125)
+```
 
 # References {.allowframebreaks}

@@ -269,8 +269,8 @@ read_csv("data/classes_in_andi.csv") %>%
 >- We observed different dative morphemes with masculine experiencers -*j*/-*ɬu* (@dative_father, @dative_cow)
 >- We observed variability in the ability of the cardinal numeral marker to agree with noun class (@cardinal), though the experimental data showed no variation
 >- We noticed variability in the formation of plural forms, but the stimuli selected for this topic (@plural_heel, @plural_soninlow) unfortunately did not vary at all.
->- There are two past copulas *b-ik'o* and *b-iʁi*, the distribution of which is unclear
->- Samira, say something about (@verb1, @verb3), please
+>- There are two past copulas *b-ik'o* and *b-iʁi*, the distribution of which does not seem to have a functional motivation
+>- Temporal clauses of the type "When X happened/happens/will happen" consist of a participle and the noun *rihi* 'time' - in Zilo the form has undergone metathesis and fusion of the ptcp suffix and the first consonant of *rihi* (*-b rihi* = *-rbihi*). It can be truncated (*-rbi*) and appear in ergative case (*-rbil-di*)
 >- An optional plural suffix -*l* can be added to progressive verb forms in -*rado*/-*mado* (@verb2)
 >- Examples 'rainbow', 'north', 'thousand' (@lexic_1, @lexic_2, and @lexic_3) were selected since there were known problems in borrowings (@lexic_1, @lexic_2) and borrowing adaptation (@lexic_3): *ozruɡu*, *oziruɡu*, *ozuruɡu*.
 
@@ -303,7 +303,7 @@ read_csv("data/classes_in_andi.csv") %>%
   select(-`non-h`, -source)
 ```
 
-* in [@moroz19] we asked only singular form
+* in [@moroz19] we asked only the singular form
 
 * in our new experiment:
 
@@ -321,22 +321,22 @@ zilo_experiment %>%
 
 # \color{colorwhite} Nakh-Daghestanian Fieldwork Survey
 
-## `r nrow(nd_fes)` ND researches were asked to answer about:
+## `r nrow(nd_fes)` ND researchers were asked about:
 
 * level of education
 * linguistic interest
-* study linguistics at university
-* fieldwork participation when student
-* year of finishing study
+* studying linguistics at university
+* fieldwork participation as a student
+* year in which they finished their degree
 * place of study and work
-* number of people in fieldtrips participated
-* number of people in fieldtrips preder to participate
-* fildwork goal and the main goal
-* elicitation and corpora use
-* **number of speakers that researcher should consult with**
-* **number of speakers that researcher usually consult with**
-* how researcher need to cope with interspeaker variability
-* how researcher need to cope with intraspeaker variability
+* number of people who participated in their fieldtrips
+* preferable number of participants in fieldtrips
+* goals of fieldwork
+* use of elicitation and corpora
+* **number of speakers a researcher *should* consult with**
+* **number of speakers the researcher *usually* consults with**
+* how researchers need to deal with interspeaker variability
+* how researchers need to deal with intraspeaker variability
 * whether speakers under the age of 13 are reliable consultants
 * whether speakers older than 70 are reliable consultants
 * personal (dis)preferences about the choice of consultants
@@ -359,7 +359,7 @@ nd_fes %>%
 ```
 
 
-## Bootstraped mean number of speakers (`r n_iter` iterations)
+## Bootstrapped mean number of speakers (`r n_iter` iterations)
 
 ```{r}
 n_speakers_bootstraped %>% 
@@ -399,12 +399,12 @@ experiment_sampling %>%
 
 ## Conclusions:
 
-- **"Average researcher"** might overlook the variation
-- Observed variation should be further explored using collected sociolinguistics parameters
-- **"Average researcher"** should be eloborated using parameters collected through the Nakh-Daghestanian Fieldwork Survey
-- Observed variation is steel just a banch of isolated lexical, phonological and morphological facts... \pause
-    - Is it possible to work on some syntax? 
-    - Is it possible to find some interaction between different variation variables? \pause
-- What does all those results add to the linguistic theory?
+- An **"average researcher"** might overlook the variation
+- The observed variation should be further explored using the collected sociolinguistics parameters
+- The characteristics of the **"average researcher"** of Nakh-Daghestanian languages should be eloborated using the parameters collected in the survey
+- The observed variation remains a collection of isolated lexical, phonological and morphological facts... \pause
+    - Is it possible to study variation in syntax in this manner? 
+    - Could variational variables be interrelated? \pause
+- And what do all these results contribute to linguistic theory?
 
 # References {.allowframebreaks}

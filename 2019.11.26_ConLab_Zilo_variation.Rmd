@@ -211,15 +211,13 @@ experiment_sampling <- read_csv("data/experiment_sampling.csv")
 
 # \color{colorwhite} Introduction
 
-## Investigating variation [@dorian10: 3]:
+## Investigating variation:
 
-> "Two equally interesting questions are at the heart of this book: how an extraordinary degree of idiosyncratic linguistic variation can coexist with an extraordinarily homogeneous speaker population, and how linguists might overlook the possibility of their coexistence."
+> "Two equally interesting questions are at the heart of this book: how an extraordinary degree of idiosyncratic linguistic variation can coexist with an extraordinarily homogeneous speaker population, and how linguists might overlook the possibility of their coexistence." [@dorian10: 3]
 
-## Variationism
+>- In variationism ([@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74] on Norwich speech, [@wolfram69] on Detroit Afro-American speech) researchers get mad about social stratification, mostly urban.
 
-According to [@eckert16] there are three waves of Variationism:
-
->- [@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74] on Norwich speech, [@wolfram69] on Detroit Afro-American speech
+But what about other comunities?
 
 # \color{colorwhite} Data
 
@@ -378,9 +376,9 @@ n_speakers_bootstraped %>%
 # \color{colorwhite} What if `r n_iter` "average researchers" ... come to Zilo?
 
 
-## `r n_iter` samples from experiment results with bootstraped number of consultants
+## `r n_iter` samples from experiment results
 
-```{r}
+```{r, fig.height=8.5}
 experiment_sampling %>% 
   mutate(n_types = factor(n_types),
          type_range = factor(type_range, levels = c("actual minimum", "actual maximum", "preference minimum", "preference maximum")),
@@ -395,5 +393,18 @@ experiment_sampling %>%
        y = 'percantage of "researchers"')+
   ylim(0, 125)
 ```
+
+# \color{colorwhite} Conclusions
+
+## Conclussions:
+
+- **"Average researcher"** might overlook the variation
+- Observed variation should be further explored using collected sociolinguistics parameters
+- **"Average researcher"** should be eloborated using parameters collected through the Nakh-Daghestanian Fieldwork Survey
+- Observed variation is steel just a banch of isolated lexical, phonological and morphological facts... \pause
+    - Is it possible to work on some syntax? 
+    - Is it possible to find some interaction between different variation variables? \pause
+- What does all those results add to the linguistic theory?
+
 
 # References {.allowframebreaks}

@@ -213,11 +213,10 @@ experiment_sampling <- read_csv("data/experiment_sampling.csv")
 
 ## Investigating variation:
 
+>- In variationism (e.g. [@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74] on Norwich speech, [@wolfram69] on Afro-American speech from Detroit) researchers get mad about social stratification, mostly urban.
+
 > "Two equally interesting questions are at the heart of this book: how an extraordinary degree of idiosyncratic linguistic variation can coexist with an extraordinarily homogeneous speaker population, and how linguists might overlook the possibility of their coexistence." [@dorian10: 3]
 
->- In variationism ([@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74] on Norwich speech, [@wolfram69] on Detroit Afro-American speech) researchers get mad about social stratification, mostly urban.
-
-But what about other comunities?
 
 # \color{colorwhite} Data
 
@@ -225,50 +224,51 @@ But what about other comunities?
 
 Data were collected from
 
->- `r length(unique(zilo_experiment$speaker_id))` speakers (Upper Andic, Northeast Caucasian) during the fieldwork in 2019 in Zilo (Botlikh district, Dagestan)
+>- `r length(unique(zilo_experiment$speaker_id))` speakers of Andi (Nakh-Daghestanian) during fieldwork in Zilo (Botlikh district, Dagestan) in 2019
 
 ![](images/01_map.png)
 
 Created with `lingtypology` [@moroz2017]
 
->- and `r nrow(nd_fes)` Nakh-Daghestanian researches via online questionary
+>- and `r nrow(nd_fes)` Researchers of Nakh-Daghestanian languages via an online questionary
 
 # \color{colorwhite} Zilo Data
 
 ## `r length(unique(zilo_experiment$speaker_id))` Zilo speakers were asked to translate:
 
 (@butterfly_sg) 'big butterfly'
-(@butterfly_pl) 'big butterflys'
+(@butterfly_pl) 'big butterflies'
 (@grasshopper_sg) 'big grasshopper'
 (@grasshopper_pl) 'big grasshoppers'
-(@parents) 'parents left'
-(@dative_father) 'pour your father some whater'
-(@dative_cow) 'pour your cow some whater'
+(@parents) 'the parents left'
+(@dative_father) 'pour your father some water'
+(@dative_cow) 'pour your cow some water'
 (@cardinal) 'third girl'
-(@verb1) 'On the wedding the bride was beautiful'
+(@verb1) 'the bride was beautiful at the wedding'
 (@plural_heel) 'heels'
 (@plural_soninlow) 'sons-in-law'
 (@verb2) 'they are eating'
-(@verb3) 'when he come, we will eat'
+(@verb3) 'when he comes, we will eat'
 (@lexic_1) 'rainbow'
 (@lexic_2) 'north'
 (@lexic_3) 'thousand'
 
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): class atribution
+## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): class attribution
 
 ```{r}
 read_csv("data/classes_in_andi.csv")
 ```
 
-* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) and *ʁats'a* 'grasshopper' (@grasshopper_sg, @grasshopper_pl) belong to `-an3` class in Rikwani [@suleymanov57]
-* *odoruk’a* 'butterfly' (@butterfly_sg) is one of the most variable words from [@moroz19]
+* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) and *ʁats'a* 'grasshopper' (@grasshopper_sg, @grasshopper_pl) belong to `-an3` class in Rikvani [@suleymanov57]
+* *odoruk’a* 'butterfly' (@butterfly_sg) is one of the most variable words according to [@moroz19]
 
 ## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): other questions
 
 >- We noticed that *ila-ima* 'parents' can agree with `-an 2` (@parents).
->- We observed different dative morpheme with masculine experiencer -*j*/-*ɬu* (@dative_father, @dative_cow)
->- It have been claimed that there is variability in cardinal numeral marker (@cardinal) that unfortunately did not appeared in the data...
->- We noticed a variability in plural forms formation, but stimuli selected for this topic (@plural_heel, @plural_soninlow) unfortunately did not vary at all...
+>- We observed different dative morphemes with masculine experiencers -*j*/-*ɬu* (@dative_father, @dative_cow)
+>- We observed variability in the ability of the cardinal numeral marker to agree with noun class (@cardinal), though the experimental data showed no variation
+>- We noticed variability in the formation of plural forms, but the stimuli selected for this topic (@plural_heel, @plural_soninlow) unfortunately did not vary at all.
+>- There are two past copulas *b-ik'o* and *b-iʁi*, the distribution of which is unclear
 >- Samira, say something about (@verb1, @verb3), please
 >- An optional plural suffix -*l* can be added to progressive verb forms in -*rado*/-*mado* (@verb2)
 >- Examples 'rainbow', 'north', 'thousand' (@lexic_1, @lexic_2, and @lexic_3) were selected since there were known problems in borrowings (@lexic_1, @lexic_2) and borrowing adaptation (@lexic_3): *ozruɡu*, *oziruɡu*, *ozuruɡu*.

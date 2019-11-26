@@ -256,15 +256,16 @@ Created with `lingtypology` [@moroz2017]
 ## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): class attribution
 
 ```{r}
-read_csv("data/classes_in_andi.csv")
+read_csv("data/classes_in_andi.csv") %>% 
+  select(-source)
 ```
 
-* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) and *ʁats'a* 'grasshopper' (@grasshopper_sg, @grasshopper_pl) belong to `-an3` class in Rikvani [@suleymanov57]
+* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) and *ʁats'a* 'grasshopper' (@grasshopper_sg, @grasshopper_pl) belong to `inan 3` class in Rikvani [@suleymanov57]
 * *odoruk’a* 'butterfly' (@butterfly_sg) is one of the most variable words according to [@moroz19]
 
 ## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): other questions
 
->- We noticed that *ila-ima* 'parents' can agree with `-an 2` (@parents).
+>- We noticed that *ila-ima* 'parents' can agree with `inan 2` (@parents).
 >- We observed different dative morphemes with masculine experiencers -*j*/-*ɬu* (@dative_father, @dative_cow)
 >- We observed variability in the ability of the cardinal numeral marker to agree with noun class (@cardinal), though the experimental data showed no variation
 >- We noticed variability in the formation of plural forms, but the stimuli selected for this topic (@plural_heel, @plural_soninlow) unfortunately did not vary at all.
@@ -299,7 +300,7 @@ zilo_experiment %>%
 ```{r}
 read_csv("data/classes_in_andi.csv") %>% 
   filter(str_detect(lect, "Ri|Zi")) %>% 
-  select(-`-h`)
+  select(-`non-h`, -source)
 ```
 
 * in [@moroz19] we asked only singular form
@@ -314,7 +315,7 @@ zilo_experiment %>%
   count(`1`, `2`) %>% 
   rename(sg = `1`,
          pl = `2`) %>% 
-  mutate(class = c("an", "⸄o⸅", "-an 2"))
+  mutate(class = c("an", "⸄o⸅", "inan 2"))
 ```
 
 
@@ -396,7 +397,7 @@ experiment_sampling %>%
 
 # \color{colorwhite} Conclusions
 
-## Conclussions:
+## Conclusions:
 
 - **"Average researcher"** might overlook the variation
 - Observed variation should be further explored using collected sociolinguistics parameters

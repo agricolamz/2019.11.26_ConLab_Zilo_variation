@@ -1,11 +1,11 @@
-source,lect,m,f,an,-an 1,-an 2,-an 3,-h
-[@alekseev99: 221],"An, sg",w,j,b,b,r,-,-
-[@alekseev99: 221],"An, pl",w,j,j,b,r,-,-
-[@salimov10: 47–62],"Ga, sg",w,j,b,b,r,-,-
-[@salimov10: 47–62],"Ga, pl",w,j,j,b,r,-,-
-[@suleymanov57: 131–162],"Ri, sg",w,j,b,b,r,b,-
-[@suleymanov57: 131–162],"Ri, pl",w,j,j,b,r,r,-
-Field data,"Zi, sg",w,j,b,b,r,-,-
-Field data,"Zi, pl",w,j,j,b,r,-,-
-[@tsertsvadze65],"Mu, sg",w,j,-,-,-,-,b
-[@tsertsvadze65],"Mu, pl",w,j,-,-,-,-,b
+source,lect,number,m,f,an,inan 1,inan 2,inan 3,non-h
+[@alekseev99: 221],Andi,sg,w,j,b,b,r,-,-
+[@alekseev99: 221],Andi,pl,w,j,j,b,r,-,-
+[@salimov10: 47–62],Gagatli,sg,w,j,b,b,r,-,-
+[@salimov10: 47–62],Gagatli,pl,w,j,j,b,r,-,-
+[@suleymanov57: 131–162],Rikwani,sg,w,j,b,b,r,b,-
+[@suleymanov57: 131–162],Rikwani,pl,w,j,j,b,r,r,-
+Field data,Zilo,sg,w,j,b,b,r,-,-
+Field data,Zilo,pl,w,j,j,b,r,-,-
+[@tsertsvadze65],Muni,sg,w,j,-,-,-,-,b
+[@tsertsvadze65],Muni,pl,w,j,-,-,-,-,b

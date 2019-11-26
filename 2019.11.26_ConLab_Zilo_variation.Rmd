@@ -407,5 +407,4 @@ experiment_sampling %>%
     - Is it possible to find some interaction between different variation variables? \pause
 - What does all those results add to the linguistic theory?
 
-
 # References {.allowframebreaks}

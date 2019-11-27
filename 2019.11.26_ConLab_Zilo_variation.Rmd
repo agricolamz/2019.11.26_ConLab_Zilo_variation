@@ -215,8 +215,10 @@ experiment_sampling <- read_csv("data/experiment_sampling.csv")
 
 >- In variationism (e.g. [@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74] on Norwich speech, [@wolfram69] on Afro-American speech from Detroit) researchers get mad about social stratification, mostly urban.
 
-> "Two equally interesting questions are at the heart of this book: how an extraordinary degree of idiosyncratic linguistic variation can coexist with an extraordinarily homogeneous speaker population, and how linguists might overlook the possibility of their coexistence." [@dorian10: 3]
 
+>- "Two equally interesting questions are at the heart of this book: how an extraordinary degree of idiosyncratic linguistic variation can coexist with an extraordinarily homogeneous speaker population, and how linguists might overlook the possibility of their coexistence." [@dorian10: 3]
+
+>- In this talk we explore variation in a small, homogeneous speaker population and the probability that an average researcher of Nakh-Daghestanian languages catches this variation.
 
 # \color{colorwhite} Data
 
@@ -230,11 +232,11 @@ Data were collected from
 
 Created with `lingtypology` [@moroz2017]
 
->- and `r nrow(nd_fes)` Researchers of Nakh-Daghestanian languages via an online questionary
+>- and `r nrow(nd_fes)` researchers of Nakh-Daghestanian languages via an online questionary
 
 # \color{colorwhite} Zilo Data
 
-## `r length(unique(zilo_experiment$speaker_id))` Zilo speakers were asked to translate:
+## `r length(unique(zilo_experiment$speaker_id))` Zilo speakers were asked to translate 16 stimuli:
 
 (@butterfly_sg) 'big butterfly'
 (@butterfly_pl) 'big butterflies'
@@ -253,26 +255,26 @@ Created with `lingtypology` [@moroz2017]
 (@lexic_2) 'north'
 (@lexic_3) 'thousand'
 
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): class attribution
+## Stimuli: class attribution
 
 ```{r}
 read_csv("data/classes_in_andi.csv") %>% 
   select(-source)
 ```
 
-* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) and *ʁats'a* 'grasshopper' (@grasshopper_sg, @grasshopper_pl) belong to `inan 3` class in Rikvani [@suleymanov57]
+* *odoruk’a* 'butterfly' (@butterfly_sg, @butterfly_pl) and *ʁats'a* 'grasshopper' (@grasshopper_sg, @grasshopper_pl) belong to the rare `inan 3` class in Rikvani [@suleymanov57]
 * *odoruk’a* 'butterfly' (@butterfly_sg) is one of the most variable words according to [@moroz19]
 
-## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): other questions
+## Stimuli
 
->- We noticed that *ila-ima* 'parents' can agree with `inan 2` (@parents).
->- We observed different dative morphemes with masculine experiencers -*j*/-*ɬu* (@dative_father, @dative_cow)
->- We observed variability in the ability of the cardinal numeral marker to agree with noun class (@cardinal), though the experimental data showed no variation
->- We noticed variability in the formation of plural forms, but the stimuli selected for this topic (@plural_heel, @plural_soninlow) unfortunately did not vary at all.
->- There are two past copulas *b-ik'o* and *b-iʁi*, the distribution of which does not seem to have a functional motivation
->- Temporal clauses of the type "When X happened/happens/will happen" consist of a participle and the noun *rihi* 'time' - in Zilo the form has undergone metathesis and fusion of the ptcp suffix and the first consonant of *rihi* (*-b rihi* = *-rbihi*). It can be truncated (*-rbi*) and appear in ergative case (*-rbil-di*)
->- An optional plural suffix -*l* can be added to progressive verb forms in -*rado*/-*mado* (@verb2)
->- Examples 'rainbow', 'north', 'thousand' (@lexic_1, @lexic_2, and @lexic_3) were selected since there were known problems in borrowings (@lexic_1, @lexic_2) and borrowing adaptation (@lexic_3): *ozruɡu*, *oziruɡu*, *ozuruɡu*.
+>- *ila-ima* 'parents' can agree with `m` or `inan 2` (@parents).
+>- Different dative morphemes with masculine experiencers -*j*/-*ɬu* (@dative_father, @dative_cow)
+>- Ordinal numeral marker sometimes agrees with noun class (@cardinal)
+>- Different plural forms for certain nouns (@plural_heel, @plural_soninlow)
+>- Two past copulas *b-ik'o* and *b-iʁi* with no functional distinction
+>- Temporal forms meaning "When X happened/happens/will happen" have a long (*-rbihi*) and a short form (*-rbi*), and can appear in ergative case with the same meaning (*-rbil-di*)
+>- Optional plural suffix -*l* can be added to progressive verb forms in -*rado*/-*mado* (@verb2)
+>- 'rainbow', 'north', and 'thousand' (@lexic_1, @lexic_2, and @lexic_3) show variation in word choice (@lexic_1, @lexic_2) and adaptation (@lexic_3): *ozruɡu*, *oziruɡu*, *ozuruɡu*
 
 ## Zilo questionary (`r length(unique(zilo_experiment$speaker_id))` speakers): results
 
@@ -303,9 +305,9 @@ read_csv("data/classes_in_andi.csv") %>%
   select(-`non-h`, -source)
 ```
 
-* in [@moroz19] we asked only the singular form
+* in [@moroz19] we asked only the singular form of 'butterfly'
 
-* in our new experiment:
+* in our new experiment):
 
 ```{r}
 zilo_experiment %>% 
@@ -330,7 +332,7 @@ zilo_experiment %>%
 * year in which they finished their degree
 * place of study and work
 * number of people who participated in their fieldtrips
-* preferable number of participants in fieldtrips
+* preferred number of participants in fieldtrips
 * goals of fieldwork
 * use of elicitation and corpora
 * **number of speakers a researcher *should* consult with**
@@ -390,8 +392,8 @@ experiment_sampling %>%
   facet_grid(translation_en~type_range, scales = "free")+
   coord_flip()+
   theme(strip.text.y = element_text(angle=0))+
-  labs(x = 'number of classes gathered by "researchers"',
-       y = 'percantage of "researchers"')+
+  labs(x = 'number of variants discovered by researchers"',
+       y = 'percentage of "researchers"')+
   ylim(0, 125)
 ```
 
@@ -399,9 +401,10 @@ experiment_sampling %>%
 
 ## Conclusions:
 
-- An **"average researcher"** might overlook the variation
-- The observed variation should be further explored using the collected sociolinguistics parameters
-- The characteristics of the **"average researcher"** of Nakh-Daghestanian languages should be eloborated using the parameters collected in the survey
+- An **"average researcher"** might overlook a significant amount of the variation we observed due to the low number of speakers they usually consult with
+- However, our experiment with 44 speakers also failed to show some of the variation we found in prior research on this dialect
+- The observed variation should be explored in more detail using the collected sociolinguistic parameters
+- The characteristics of the **"average researcher"** of Nakh-Daghestanian languages can be further eloborated using the parameters collected in the survey
 - The observed variation remains a collection of isolated lexical, phonological and morphological facts... \pause
     - Is it possible to study variation in syntax in this manner? 
     - Could variational variables be interrelated? \pause

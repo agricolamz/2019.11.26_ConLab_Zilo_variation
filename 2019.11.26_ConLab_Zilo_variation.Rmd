@@ -392,7 +392,7 @@ experiment_sampling %>%
   facet_grid(translation_en~type_range, scales = "free")+
   coord_flip()+
   theme(strip.text.y = element_text(angle=0))+
-  labs(x = 'number of variants discovered by researchers"',
+  labs(x = 'number of variants discovered by "researchers"',
        y = 'percentage of "researchers"')+
   ylim(0, 125)
 ```

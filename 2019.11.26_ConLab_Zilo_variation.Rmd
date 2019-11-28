@@ -406,5 +406,5 @@ experiment_sampling %>%
     - Is it possible to study variation in syntax in this manner? 
     - Could variational variables be interrelated? \pause
 - And what do all these results contribute to linguistic theory?
-
+  
 # References {.allowframebreaks}
